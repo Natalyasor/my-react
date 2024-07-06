@@ -1,0 +1,335 @@
+
+
+
+
+.page {
+ 
+   max-width: 1200px;
+    margin: 0px auto;
+  padding: 0 25px;
+  scroll-behavior: smooth;
+   background-color: #1E1D1D;
+}
+
+.image {
+    width: 100%;
+}
+.content {
+    display: flex;
+  
+    color: #999360;
+}
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+.Prosto {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    color: #999360;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+      
+    }
+}
+.Navbar {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ justify-content: flex-end;
+  gap: 40px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+ padding-left: 400px;
+  gap: 50px;
+  color: #999360;
+}
+.foto {
+ display: flex;
+padding-left: 400px;
+
+transition: transform 0.7s ease;
+
+&:hover {
+  transform: scale(1.1);
+}
+}
+.About {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+.btn {
+  background-color: #999360;
+ width: 300px;
+ height: 50px;
+ border-radius: 10px;
+ font-size: 24px;
+ font-weight: 600;
+ color: rgb(70, 70, 70);
+
+}
+.description {
+  color: #E1FCE0;
+  font-size: 16px;
+}
+.description1 {
+  color: #20994C;
+}
+.Retusch {
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+  padding-left: 30px;
+ 
+}
+.title {
+ display: flex;
+  color: #F3B990;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 80px;
+
+}
+.description2 {
+  display: flex;
+  font-size: 16px;
+color: #fff;
+
+}
+.Retuschfoto {
+  color: #424141;
+  font-size: 14px;
+  background-color: #999360;
+padding: 6px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  &:hover {
+    color: black;
+    background-color: #726e48;
+  }
+  
+}
+
+.buttonfoto {
+  padding-top: 25px;
+}
+.Kalendar {
+  display: flex;
+  justify-content: end;
+  align-items: first baseline;
+width: 40%;
+}
+.Fotocontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 30px;
+ 
+}
+
+.Retuschcontent {
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.Kalendarcontent {
+  display: flex;
+  flex-direction: column;
+ 
+  gap: 40px;
+  padding-top: 20px;
+}
+.kalendimg {
+  border-radius: 10px;
+  padding-right: 30px;
+  float: left;
+  transition: transform 0.7s ease;
+
+  &:hover {
+    transform: scale(1.5);
+  }
+}
+.Kalcont {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+.kalend {
+  padding-top: 40px;
+  font-size: 16px;
+  color: #F3B990;
+  font-weight: 500;
+ 
+}
+.kalend1 {
+  
+  font-size: 16px;
+  color: #fff;
+}
+.btnkalend {
+  display: flex;
+  padding-top: 25px;
+  justify-content: end;
+}
+
+
+.Restavracia {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.Rfoto {
+  padding-right: 30px;
+  padding-top: 20px;
+ 
+}
+.Rtitle {
+  color: #F3B990;
+  font-size: 18px;
+  font-weight: 500;
+}
+.descrrest {
+  color: #fff;
+  font-size: 16px;
+}
+.Restavr1 {
+  display: flex;
+  flex-direction: row-reverse;
+ 
+}
+.Rbutton {
+  display: flex;
+  padding-top: 20px;
+  justify-content: flex-end;
+}
+.Albomdescription {
+  color: #fff;
+  font-size: 12px;
+}
+.Albomcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.Fotoalbom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 30px;
+}
+.Atitle {
+  color: #F3B990;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 60px;
+  padding-left: 40px;
+}
+.Adescription {
+  color: #fff;
+  font-size: 16px;
+  padding-left: 40px;
+}
+.Albimg2{
+  border-radius: 10px;
+  padding-left: 40px;
+}
+.Abuttonfoto {
+display: flex;
+justify-content: flex-end;
+padding-right: 30px;
+}
+.Posltitle {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.Pcontent {
+
+  display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.Pimgkalen {
+ display: block;
+ border-radius: 10px;
+}
+.Poslbutton {
+  padding-left: 20px;
+}
+.Psbutton {
+ padding: 8px 60px;
+ color: #fff;
+ font-size: 14px;
+ background-color: #20201f;
+
+ border-radius: 10px;
+ text-decoration: none;
+ &:hover {
+   color: #20201f;
+   background-color: #fff;
+ }
+}
+.Poslugucontent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #576B6B;
+  height: 400px;
+}
+.Poslug {
+  padding-bottom: 30px;
+}
+
+.Futter {
+  display: flex;
+ flex-direction: column;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+
+}
+.Contactu {
+ display: flex;
+  color:#fff;
+  gap: 50px;
+  
+}
+.numerT {
+  display: flex;
+gap: 20px;
+font-size: 14px;
+}
+.Conttitle {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #20994C;
+}
+.name1 {
+  color: #0abd49;
+}
+.Thenk {
+  color: #999360;
+  font-size: 35px;
+  font-weight: 600;
+  padding-top: 60px;
+}
