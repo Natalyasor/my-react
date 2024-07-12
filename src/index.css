@@ -16,3 +16,14 @@ code {
     monospace;
 }
 
+
+*, *:before, *:after {
+  -webkit-touch-callout: none; 
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+

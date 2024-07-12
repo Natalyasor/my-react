@@ -9,7 +9,7 @@ import Alb1 from "./Alb1.svg";
 import Alb2 from "./Alb2.svg";
 import Kalendari from "./kalendari.svg";
 import RetFoto from "./RetFoto.svg";
-import Alb from "./Alb.svg";
+import Foto21 from "../FotoAlbomu/foto21.jpg";
 import Retusch from "./retusch.svg";
 import Rest from "./rest.svg";
 
@@ -17,11 +17,11 @@ import { Link } from "react-router-dom";
 
 
 
-
-
 export default function Home() {
-  
+ 
     return (
+
+        
         <div className="page">
            <img src={Fon} alt="Fon" className="image"/>
            <div className="menu">
@@ -32,7 +32,6 @@ export default function Home() {
   <div className="nav">
     <Link className="Prosto" to="/About">Про мене</Link>
     <Link className="Prosto" to="/Services">Послуги</Link>
-    <Link className="Prosto" to="/Contact">Контакти</Link>
     <Link className="Prosto" to="Price">Тарифи</Link>
     </div>
    
@@ -65,7 +64,7 @@ export default function Home() {
 ми завжди на фото хочемо виглядати на всі 100%. Тому ретуш це те що потрібно 
     </div >
    <div className="buttonfoto">
-   <Link className="Retuschfoto" to = "/Retuschfoto">Переглянути</Link>
+   <Link className="Retuschfoto" to = "/RetushFoto">Переглянути</Link>
    </div>
 </div>
 </div>
@@ -83,7 +82,7 @@ export default function Home() {
     Мої календарі  зробленні з любовю.
     </div>
    <div className="btnkalend">
-   <Link className="Retuschfoto" to = "/Retuschfoto">Переглянути</Link>
+   <Link className="Retuschfoto" to = "/MyKalendar">Переглянути</Link>
    </div>
   </div>
 </div>
@@ -102,7 +101,7 @@ export default function Home() {
 відновити.
 </div>
 <div className="Rbutton">
-   <Link className="Retuschfoto" to = "/Retuschfoto">Переглянути</Link>
+   <Link className="Retuschfoto" to = "/RestavraciaFoto">Переглянути</Link>
    </div>
 </div>
 </div>
@@ -138,7 +137,7 @@ export default function Home() {
     <img src = {Alb2} alt="Albom2" height={300} width={500} className="Albimg2"/>
 </div>
 <div className="Abuttonfoto">
-   <Link className="Retuschfoto" to = "/Retuschfoto">Переглянути</Link>
+   <Link className="Retuschfoto" to = "/FotoAlbomu">Переглянути</Link>
    </div>
 </div>
 </div>
@@ -147,42 +146,36 @@ export default function Home() {
 <div className="Poslug">
 <div className="Posltitle">Послуги</div>
 <div className="Poslugucontent">
-<div className="Pcontent">
-<div>
-    <img src={Kalendari} alt="Kalendari" className="Pimgkalen"/>
+
+
+<div className="boxposlug">
+    <img src={Kalendari} alt="Kalendari" height={150} width={210} className="Pimgkalen"/>
+    <Link className="Psbutton" to = "/MyKalendar">Фотокалендарі</Link>
 </div>
-<div className="Poslbutton">
-   <Link className="Psbutton" to = "/Retuschfoto">Фотокалендарі</Link>
-   </div>
+
+
+
+<div className="boxposlug">
+    <img src={RetFoto} alt="RetFoto" height={150} width={150} className="Pimgkalen"/>
+    <Link className="Psbutton" to = "/RetushFoto">Ретуш фото</Link>
+</div>
+
  
+
+
+<div className="boxposlug">
+    <img src={Foto21} alt="Foto21" height={150} width={150} className="Pimgkalen"/>
+    <Link className="Psbutton" to = "/FotoAlbomu">Фотоальбоми</Link>
 </div>
-<div className="Pcontent">
-<div>
-    <img src={RetFoto} alt="RetFoto" className="Pimgkalen"/>
-</div>
-<div className="Poslbutton">
-   <Link className="Psbutton" to = "/Retuschfoto">Ретуш фото</Link>
-   </div>
+
  
+
+
+<div className="boxposlug">
+    <img src={Rest} alt="Rest"  height={150} width={210} className="Pimgkalen"/>
+    <Link className="Psbutton" to = "/RestavraciaFoto">Реставрація фото</Link>
 </div>
-<div className="Pcontent">
-<div>
-    <img src={Alb} alt="Alb" className="Pimgkalen"/>
-</div>
-<div className="Poslbutton">
-   <Link className="Psbutton" to = "/Retuschfoto">Фотоальбоми</Link>
-   </div>
- 
-</div>
-<div className="Pcontent">
-<div>
-    <img src={Rest} alt="Rest" className="Pimgkalen"/>
-</div>
-<div className="Poslbutton">
-   <Link className="Psbutton" to = "/Retuschfoto">Реставрація фото</Link>
-   </div>
- 
-</div>
+
 </div>
 </div>
 <img src={Fon} alt="Fon" className="image"/>
@@ -190,6 +183,7 @@ export default function Home() {
 <div className="Futter">
 <div className="Contactu">
 
+<div className="boxcontact">
 <div className="Conttitle">Контакти</div> 
 
 <div className="numerT">
@@ -197,7 +191,9 @@ export default function Home() {
 +4915156552615 <br />
 Natalyasor110983@gmail.com
 </div>
+</div>
 
+<div className="boxcontact">
 <div className="Adress">
 <div className="name">
 Natalya
@@ -206,9 +202,22 @@ Falyta
 </div>
 
 </div>
+
 </div>
 
+</div>
 <div className="Thenk">THANK YOU</div>
+</div>
+
+
+
+<div className="copy">
+<div className="copy1">
+Дизайн календарів: Сороколіт Наталія 
+</div>
+<div className="copy2">
+    (деякі фото які використані у календарях взяті з інтернету)
+</div>
 </div>
 <img src={Fon} alt="Fon" className="image"/>
             </div>

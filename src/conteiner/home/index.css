@@ -1,7 +1,4 @@
 
-
-
-
 .page {
  
    max-width: 1200px;
@@ -44,21 +41,14 @@
 }
 .nav {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
- padding-left: 400px;
+ padding-left: 500px;
   gap: 50px;
   color: #999360;
 }
+
 .foto {
  display: flex;
 padding-left: 400px;
-
-transition: transform 0.7s ease;
-
-&:hover {
-  transform: scale(1.1);
-}
 }
 .About {
   display: flex;
@@ -262,8 +252,9 @@ padding-right: 30px;
 
   display: flex;
  flex-direction: column;
- gap: 20px;
+
 }
+
 .Pimgkalen {
  display: block;
  border-radius: 10px;
@@ -296,8 +287,8 @@ padding-right: 30px;
 }
 
 .Futter {
-  display: flex;
- flex-direction: column;
+  display:flex;
+flex-direction: column;
   height: 400px;
   align-items: center;
   justify-content: center;
@@ -305,9 +296,11 @@ padding-right: 30px;
 }
 .Contactu {
  display: flex;
+ flex-direction: row;
   color:#fff;
-  gap: 50px;
-  
+  gap: 90px;
+  justify-content: center;
+ 
 }
 .numerT {
   display: flex;
@@ -332,4 +325,53 @@ font-size: 14px;
   font-size: 35px;
   font-weight: 600;
   padding-top: 60px;
+}
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform-origin: bottom;
+  background-color: #fff;
+}
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform-origin: top;
+  background-color: #fff;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} 
+.copy1 {
+  font-size: 14px;
+  color: #fff;
+}
+.copy2 {
+  font-size: 14px;
+  color: #fff;
+}
+.boxposlug {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.boxThenk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.boxcontact {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
 }

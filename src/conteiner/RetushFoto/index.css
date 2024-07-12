@@ -1,0 +1,39 @@
+.Contactbox {
+    max-width: 1200px;
+    margin: 0px auto;
+  padding: 0 25px;
+  scroll-behavior: smooth;
+   background-color: #1E1D1D;
+}
+.FotoAlbomubox {
+  height: 500px;
+}
+.FotoAlbomtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #999360;
+    display: flex;
+    justify-content: center;
+}
+.box-retusch {
+  display: flex;
+  padding-top: 30px;
+}
+.box-retusch ul >li {
+  list-style: none;
+  transition: transform 0.7s ease;
+
+  &:hover {
+    transform: scale(1.8);
+    cursor: pointer;
+  }
+}
+.imgborder {
+  border-radius: 5px;
+}
+.copy3 {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
+}

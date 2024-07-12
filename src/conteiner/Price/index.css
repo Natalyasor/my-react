@@ -1,0 +1,39 @@
+.PricePage {
+    max-width: 1200px;
+    background-color: #1E1D1D;
+   position: fixed;
+    margin: 0px auto;
+    padding: 0 25px;
+}
+.Pricetitle {
+    display: flex;
+    justify-content: center;
+    color: #999360;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Pricedescription {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+    color: #999360;
+    padding-top: 40px;
+    justify-items: center;
+    font-size: 16px;
+}
+.pricebox {
+    height: 500px;
+}
+.Pricedescription > ul {
+   list-style: none;
+
+}
+hr {
+    width: 90px;
+
+}
+.item {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}

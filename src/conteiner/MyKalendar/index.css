@@ -1,0 +1,65 @@
+
+*, *:before, *:after {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+
+
+.Contactbox {
+    max-width: 1200px;
+    margin: 0px auto;
+  padding: 0 25px;
+  scroll-behavior: smooth;
+   background-color: #1E1D1D;
+}
+.FotoAlbomubox {
+  height: 500px;
+ 
+}
+.FotoAlbomtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #999360;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+ul.acordion2 {
+  display: flex;
+  justify-content: center;
+}
+ul.acordion2 li {
+  width: 70px;
+  overflow: hidden;
+  padding: 1px 1px 0;
+  cursor: pointer;
+display: block;
+padding-top: 30px;
+transition: all 1s;
+
+}
+ul.acordion2 li:hover {
+  width: 200px;
+  transition: all 1.5s;
+}
+ul.acordion2 li:nth-child(6) {
+  width: 200px;
+}
+ul.acordion2:hover li:nth-child(6) {
+  width: 70px;
+}
+ul.acordion2 li:nth-child(6):hover {
+  width: 200px;
+}
+.box-acordion2 {
+  display: flex;
+  justify-content: center;
+ 
+}

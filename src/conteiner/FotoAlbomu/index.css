@@ -1,0 +1,23 @@
+.Contactbox {
+    max-width: 1200px;
+    margin: 0px auto;
+  padding: 0 25px;
+  scroll-behavior: smooth;
+   background-color: #1E1D1D;
+}
+.FotoAlbomubox {
+  height: 500px;
+ 
+}
+.FotoAlbomtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #999360;
+    display: flex;
+    justify-content: center;
+}
+
+.box-alb > ul {
+  display: flex;
+  justify-content: space-around;
+}

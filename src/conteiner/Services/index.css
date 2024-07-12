@@ -4,12 +4,14 @@
    position: fixed;
     margin: 0px auto;
     padding: 0 25px;
+  
 }
 .Albombox {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
    height: 400px;
+  
 }
 .myAlbombutton {
     color: #20994C;
@@ -35,7 +37,8 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    height: 400px;
+   height: auto;
+   height: 200px;
 }
 .box-list {
     padding-top: 10px;
@@ -83,4 +86,12 @@
     right: 0;
     transition: .5s;
     
+}
+
+.wrapper > ul {
+    display: flex;
+    justify-content: space-around;
+  opacity: 40%;
+    margin: 0 auto;
+   height: 300px;
 }
