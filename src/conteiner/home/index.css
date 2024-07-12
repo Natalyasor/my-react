@@ -298,14 +298,16 @@ flex-direction: column;
  display: flex;
  flex-direction: row;
   color:#fff;
-  gap: 90px;
+  gap: 100px;
   justify-content: center;
+
  
 }
 .numerT {
   display: flex;
 gap: 20px;
 font-size: 14px;
+
 }
 .Conttitle {
   font-size: 20px;

@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 import Fon from "../home/Fon.svg";
 import Back from "../About/back.svg";
 import { useNavigate, Link } from "react-router-dom";
-import Foto02 from "./foto02.jpg";
-import Foto0 from "./foto0.jpg";
-import Foto03 from "./foto03.jpg";
-import Foto05 from "./foto05.jpg";
-import Foto06 from "./foto06.jpg";
+import Kaktus2 from "../KinderKalendar/kaktus2.jpg";
+import My from "../KinderKalendar/my.jpg";
+import Serce from "../KinderKalendar/serce.jpg";
+import Kvitka3 from "../KinderKalendar/kvitka3.jpg";
+import Novuy from "../KinderKalendar/novuy.jpg";
 
-import Foto1 from "../VlasniKalendari/foto1.jpg";
-import Foto2 from "../VlasniKalendari/foto2.jpg";
-import Foto3 from "../VlasniKalendari/foto3.jpg";
-import Foto4 from "../VlasniKalendari/foto4.jpg";
-import Foto5 from "../VlasniKalendari/foto5.jpg";
-import Foto9 from "../SchkolaKalendar/foto9.jpg";
-import Foto10 from "../SchkolaKalendar/foto10.jpg";
+import Okularu from "../VlasniKalendari/okularu.jpg";
+import Kvitka from "../VlasniKalendari/kvitka.jpg";
+import Kvitka2 from "../VlasniKalendari/kvitka2.jpg";
+import Kaktus from "../VlasniKalendari/kaktus.jpg";
+import Plivka from "../VlasniKalendari/plivka.jpg";
+import Foto09 from "../SchkolaKalendar/foto09.jpg";
+import Foto010 from "../SchkolaKalendar/foto010.jpg";
 
 
 
@@ -41,18 +41,18 @@ export default function MyKalendar() {
 </div>
 <div className=" selection box-acordion2">
 <ul className="acordion2">
-<li><img src = {Foto02} alt="Foto02" height={300} width={200}/></li>
-<li><img src = {Foto0} alt="Foto0" height={300} width={200}/></li>
-<li><img src = {Foto03} alt="Foto03" height={300} width={200}/></li>
-<li><img src = {Foto05} alt="Foto05" height={300} width={200}/></li>
-<li><img src = {Foto06} alt="Foto06" height={300} width={200}/></li>
-<li><img src = {Foto1} alt="Foto1" height={300} width={200}/></li>
-<li><img src = {Foto2} alt="Foto2" height={300} width={200}/></li>
-<li><img src = {Foto5} alt="Foto5" height={300} width={200}/></li>
-<li><img src = {Foto4} alt="Foto4" height={300} width={200}/></li>
-<li><img src = {Foto3} alt="Foto3" height={300} width={200}/></li>
-<li><img src = {Foto9} alt="Foto9" height={300} width={200}/></li>
-<li><img src = {Foto10} alt="Foto10" height={300} width={200}/></li>
+<li><img src = {Kaktus2} alt="Kaktus2" height={300} width={200}/></li>
+<li><img src = {My} alt="My" height={300} width={200}/></li>
+<li><img src = {Serce} alt="Serce" height={300} width={200}/></li>
+<li><img src = {Kvitka3} alt="Kvitka3" height={300} width={200}/></li>
+<li><img src = {Novuy} alt="Novuy" height={300} width={200}/></li>
+<li><img src = {Okularu} alt="Foto1" height={300} width={200}/></li>
+<li><img src = {Kvitka} alt="Kvitka" height={300} width={200}/></li>
+<li><img src = {Plivka} alt="Plivka" height={300} width={200}/></li>
+<li><img src = {Kaktus} alt="Kaktus" height={300} width={200}/></li>
+<li><img src = {Kvitka2} alt="Kvitka2" height={300} width={200}/></li>
+<li><img src = {Foto09} alt="Foto09" height={300} width={200}/></li>
+<li><img src = {Foto010} alt="Foto010" height={300} width={200}/></li>
 </ul>
         </div>
         </div>

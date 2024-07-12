@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import Fon from "../home/Fon.svg";
 import Back from "../About/back.svg";
 import { useNavigate, Link } from "react-router-dom";
-import Foto02 from "./foto02.jpg";
-import Foto0 from "./foto0.jpg";
-import Foto03 from "./foto03.jpg";
-import Foto05 from "./foto05.jpg";
-import Foto06 from "./foto06.jpg";
+import Kaktus2 from "./kaktus2.jpg";
+import My from "./my.jpg";
+import Serce from "./serce.jpg";
+import Kvitka3 from "./kvitka3.jpg";
+import Novuy from "./novuy.jpg";
 
 
 
@@ -33,11 +33,11 @@ export default function KinderKalendar() {
 </div>
 <div className="box-acordion">
 <ul className="acordion">
-<li><img src = {Foto02} alt="Foto02" height={300} width={200}/></li>
-<li><img src = {Foto0} alt="Foto0" height={300} width={200}/></li>
-<li><img src = {Foto03} alt="Foto03" height={300} width={200}/></li>
-<li><img src = {Foto05} alt="Foto05" height={300} width={200}/></li>
-<li><img src = {Foto06} alt="Foto06" height={300} width={200}/></li>
+<li><img src = {Kaktus2} alt="Kaktus2" height={300} width={200}/></li>
+<li><img src = {My} alt="My" height={300} width={200}/></li>
+<li><img src = {Serce} alt="Serce" height={300} width={200}/></li>
+<li><img src = {Kvitka3} alt="Kvitka3" height={300} width={200}/></li>
+<li><img src = {Novuy} alt="Novuy" height={300} width={200}/></li>
 </ul>
         </div>
         </div>

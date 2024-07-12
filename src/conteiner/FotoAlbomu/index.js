@@ -37,7 +37,7 @@ export default function FotoAlbomu() {
     <img src = {Back} alt = "Back" className="back"/>
 </Link>
 <div className="copy3">
-Дизайн фотоальбомів: Сороколіт Наталія 
+Дизайн фотоальбомів: Сороколіт Наталія (фото які використані на сторінках фотоальбому взяті з інтернету)
 </div>
         <img src={Fon} alt="Fon" className="image"/>
         </div>

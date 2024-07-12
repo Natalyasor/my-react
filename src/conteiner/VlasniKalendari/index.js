@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import Fon from "../home/Fon.svg";
 import Back from "../About/back.svg";
 import { useNavigate, Link } from "react-router-dom";
-import Foto1 from "./foto1.jpg";
-import Foto2 from "./foto2.jpg";
-import Foto3 from "./foto3.jpg";
-import Foto4 from "./foto4.jpg";
-import Foto5 from "./foto5.jpg";
 
+import Kvitka from "./kvitka.jpg";
+import Kvitka2 from "./kvitka2.jpg";
+import Kaktus from "./kaktus.jpg";
+import Plivka from "./plivka.jpg";
+import Okularu from "./okularu.jpg";
 
 
 export default function VlasniKalendari() {
@@ -30,11 +30,11 @@ export default function VlasniKalendari() {
 </div>
 <div className="box-acordion">
 <ul className="acordion">
-<li><img src = {Foto1} alt="Foto1" height={300} width={200}/></li>
-<li><img src = {Foto2} alt="Foto2" height={300} width={200}/></li>
-<li><img src = {Foto5} alt="Foto5" height={300} width={200}/></li>
-<li><img src = {Foto4} alt="Foto4" height={300} width={200}/></li>
-<li><img src = {Foto3} alt="Foto3" height={300} width={200}/></li>
+<li><img src = {Okularu} alt="Okularu" height={300} width={200}/></li>
+<li><img src = {Kvitka} alt="Kvitka" height={300} width={200}/></li>
+<li><img src = {Plivka} alt="Plivka" height={300} width={200}/></li>
+<li><img src = {Kaktus} alt="Kaktus" height={300} width={200}/></li>
+<li><img src = {Kvitka2} alt="Kvitka2" height={300} width={200}/></li>
 </ul>
         </div>
         </div>

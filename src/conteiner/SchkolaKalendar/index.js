@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import Fon from "../home/Fon.svg";
 import Back from "../About/back.svg";
 import { useNavigate, Link } from "react-router-dom";
-import Foto9 from "./foto9.jpg";
-import Foto10 from "./foto10.jpg";
+import Foto09 from "./foto09.jpg";
+import Foto010 from "./foto010.jpg";
 
 
 
@@ -30,8 +30,8 @@ export default function SchkolaKalendar() {
 </div>
 <div className="box-acordion1">
 <ul className="acordion1">
-<li><img src = {Foto9} alt="Foto9" height={300} width={200}/></li>
-<li><img src = {Foto10} alt="Foto10" height={300} width={200}/></li>
+<li><img src = {Foto09} alt="Foto09" height={300} width={200}/></li>
+<li><img src = {Foto010} alt="Foto010" height={300} width={200}/></li>
 </ul>
         </div>
         </div>
