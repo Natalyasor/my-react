@@ -8,7 +8,7 @@ import Restavr from "./Restavr.svg";
 import Alb1 from "./Alb1.svg";
 import Alb2 from "./Alb2.svg";
 import Kalendari from "./kalendari.svg";
-import RetFoto from "./RetFoto.svg";
+import Foto14 from "../RetushFoto/foto14.jpg";
 import Foto21 from "../FotoAlbomu/foto21.jpg";
 import Retusch from "./retusch.svg";
 import Rest from "./rest.svg";
@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 
 
 export default function Home() {
- 
+
     return (
 
         
@@ -33,14 +33,22 @@ export default function Home() {
     <Link className="Prosto" to="/About">Про мене</Link>
     <Link className="Prosto" to="/Services">Послуги</Link>
     <Link className="Prosto" to="Price">Тарифи</Link>
+  <div className="Sign">
+  <Link className="Prosto" to="/Signup">Sign up</Link>
+  <Link className="Prosto" to="/SignIn">Sign in</Link>
+  </div>
     </div>
    
     </div>
 </div>
            </div>
-           <img src={Foto} alt="Foto" className="foto"/>
+         
         <div className="button">
-        <button className="btn">Портфоліо</button>
+            <div>
+        <img src={Foto} alt="Foto" height={350} width={270} className="foto"/>
+        </div>
+       
+       <Link className="btn" to="/#">Портфоліо</Link>
         </div>
         <img src={Fon} alt="Fon" className="image"/>
 
@@ -144,28 +152,28 @@ export default function Home() {
 <img src={Fon} alt="Fon" className="image"/>
 
 <div className="Poslug">
-<div className="Posltitle">Послуги</div>
+
 <div className="Poslugucontent">
 
 
 <div className="boxposlug">
     <img src={Kalendari} alt="Kalendari" height={150} width={210} className="Pimgkalen"/>
-    <Link className="Psbutton" to = "/MyKalendar">Фотокалендарі</Link>
+    <Link className="Psbutton " to = "/MyKalendar">Фотокалендарі</Link>
 </div>
 
 
 
 <div className="boxposlug">
-    <img src={RetFoto} alt="RetFoto" height={150} width={150} className="Pimgkalen"/>
-    <Link className="Psbutton" to = "/RetushFoto">Ретуш фото</Link>
+    <img src={Foto14} alt="foto14" height={150} width={210} className="Pimgkalen"/>
+    <Link className="Psbutton " to = "/RetushFoto">Ретуш фото</Link>
 </div>
 
  
 
 
 <div className="boxposlug">
-    <img src={Foto21} alt="Foto21" height={150} width={150} className="Pimgkalen"/>
-    <Link className="Psbutton" to = "/FotoAlbomu">Фотоальбоми</Link>
+    <img src={Foto21} alt="Foto21" height={150} width={180} className="Pimgkalen"/>
+    <Link className="Psbutton " to = "/FotoAlbomu">Фотоальбоми</Link>
 </div>
 
  
@@ -173,7 +181,7 @@ export default function Home() {
 
 <div className="boxposlug">
     <img src={Rest} alt="Rest"  height={150} width={210} className="Pimgkalen"/>
-    <Link className="Psbutton" to = "/RestavraciaFoto">Реставрація фото</Link>
+    <Link className="Psbutton " to = "/RestavraciaFoto">Реставрація фото</Link>
 </div>
 
 </div>
@@ -182,9 +190,10 @@ export default function Home() {
 
 <div className="Futter">
 <div className="Contactu">
+<div className="Conttitle">Контакти <hr/></div> 
 
 <div className="boxcontact">
-<div className="Conttitle">Контакти</div> 
+
 
 <div className="numerT">
 +380676999827 <br />

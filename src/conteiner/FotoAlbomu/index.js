@@ -30,6 +30,8 @@ export default function FotoAlbomu() {
 </div>
 <div className="box-alb">
 
+
+
         </div>
         </div>
   

@@ -14,6 +14,8 @@ import VlasniKalendari from "./conteiner/VlasniKalendari";
 import SchkolaKalendar from "./conteiner/SchkolaKalendar";
 import MyKalendar from "./conteiner/MyKalendar";
 import FotoAlbomu from "./conteiner/FotoAlbomu";
+import Signup from "./conteiner/Signup";
+import SignIn from "./conteiner/SignIn";
 
 
 function App() {
@@ -37,6 +39,8 @@ function App() {
 <Route path="SchkolaKalendar" element={<SchkolaKalendar/>}/>
 <Route path="MyKalendar" element={<MyKalendar/>}/>
 <Route path="FotoAlbomu" element={<FotoAlbomu/>}/>
+<Route path="Signup" element={<Signup/>}/>
+<Route path="SignIn" element={<SignIn/>}/>
     </Routes>
    
  </BrowserRouter>

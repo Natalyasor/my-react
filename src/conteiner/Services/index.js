@@ -80,8 +80,8 @@ export default function Services() {
  
   
   <motion.img src = {Foto08} alt="Foto01" height={250} width={750}
-    animate={{ x: 5, opacity: 1}} // Анімація руху вправо на 100 одиниць
-        initial={{x: -1000, opacity: 0}}
+    animate={{ x: 0, opacity: 9}} // Анімація руху вправо на 100 одиниць
+        initial={{x: -100, opacity: 0}}
         transition={{duration: 3}}
        
   />
