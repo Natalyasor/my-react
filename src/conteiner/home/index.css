@@ -1,4 +1,5 @@
 
+
 .page {
  
    max-width: 1200px;
@@ -39,6 +40,10 @@
  justify-content: flex-end;
   gap: 40px;
 }
+
+
+
+
 .nav {
   display: flex;
  padding-left: 190px;

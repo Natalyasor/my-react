@@ -42,3 +42,19 @@
   border-color: #fff;
 
 }
+.noaccount {
+  color: #fff;
+  font-size: 12px;
+
+}
+.noaccount > span{
+  text-decoration: underline;
+}
+.Signupaccount {
+  color: #999360;
+  padding-left: 10px;
+  &:hover {
+    color: black;
+    transition: 1s;
+  }
+}

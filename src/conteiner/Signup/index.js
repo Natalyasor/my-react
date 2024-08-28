@@ -58,9 +58,10 @@ export default function Signup() {
     <label>Password</label>
 <input {...register ("Password", {required: true,
    pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/,
-})} name="Password" type="Password "placeholder="Введіть свій password"/>
+})} name="Password" type="Password" placeholder="Введіть свій password"/>
 {errors?.Password && <p className="form-text Errors">{"Мінімум 8 символів, включаючи хоча б одну цифру, малу та велику літеру"}</p>}
 </div>
+
 
 
 <button disabled = {!isValid} type="submit">Sign up</button>

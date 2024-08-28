@@ -56,7 +56,17 @@ export default function SignIn() {
 
 <button disabled = {!isValid} type="submit">Sign in</button>
 
+<div className="noaccount">
+<div>
+<span>Ви ще не зареєстровані?</span>
+<Link className="Signupaccount" to="/Signup">Sign up</Link>
+</div>
 
+<div className="noaccount">
+<span>Забули свій пароль?</span>
+<Link className="Signupaccount" to="#">Відновити пароль</Link>
+</div>
+</div>
 </form>
 
         </div>
